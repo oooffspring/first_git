@@ -25,11 +25,18 @@
                                     <action selector="clickTheButton:" destination="2" eventType="touchUpInside" id="21k-8h-aLL"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YG9-6g-WGj">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="fWW-jF-iIV" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="CYE-8H-kaS"/>
+                            <constraint firstAttribute="bottom" secondItem="YG9-6g-WGj" secondAttribute="bottom" constant="113" id="6K2-Gq-n6P"/>
                             <constraint firstItem="fWW-jF-iIV" firstAttribute="top" secondItem="3" secondAttribute="top" constant="208" id="GQC-VH-MX8"/>
+                            <constraint firstItem="YG9-6g-WGj" firstAttribute="centerX" secondItem="fWW-jF-iIV" secondAttribute="centerX" type="default" id="aux-lH-OmV"/>
+                            <constraint firstItem="YG9-6g-WGj" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="p0K-2g-Anq"/>
                         </constraints>
                     </view>
                 </viewController>
